@@ -1,1 +1,20 @@
 #!/bin/bash
+
+CONTAINERS=$(docker ps -aq)
+if [ -n "${CONTAINERS}" ]; then
+    docker stop ${CONTAINERS}
+    docker rm ${CONTAINERS}
+fi
+
+IMAGES=$(docker images -q)
+if [ -n "${IMAGES}" ]; then
+    docker rmi ${IMAGES} -f
+fi
+
+VOLUMES=$(docker volume ls -q)
+if [ -n "${VOLUMES}" ]; then
+    docker volume rm ${VOLUMES}
+fi
+
+docker builder prune -af
+docker network prune -f
