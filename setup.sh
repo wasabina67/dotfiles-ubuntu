@@ -2,10 +2,13 @@
 
 FILES=(
     "bin"
+    ".bash_aliases"
     ".bash_logout"
     ".bashrc"
     ".gitconfig"
+    ".inputrc"
     ".profile"
+    ".vimrc"
 )
 DOTFILES_DIR="/home/wasabina67/dotfiles-ubuntu"
 
