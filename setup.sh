@@ -14,3 +14,5 @@ for f in "${FILES[@]}"; do
         ln -s "${DOTFILES_DIR}/${f}" "${HOME}/${f}"
     fi
 done
+
+chmod +x ./bin/docker_cleanup
