@@ -8,6 +8,8 @@ FILES=(
     ".gitconfig"
     ".inputrc"
     ".profile"
+    ".screenrc"
+    ".sqliterc"
     ".vimrc"
 )
 DOTFILES_DIR="/home/wasabina67/dotfiles-ubuntu"
