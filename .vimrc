@@ -55,7 +55,7 @@ nnoremap <S-l> $
 set showmatch
 set matchtime=10
 
-" vim-plug
+" junegunn/vim-plug
 call plug#begin()
 
 Plug 'airblade/vim-gitgutter'
