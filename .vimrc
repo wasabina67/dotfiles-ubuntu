@@ -44,3 +44,7 @@ nnoremap <S-h> ^
 
 " End of line (Shift + l)
 nnoremap <S-l> $
+
+" Show match
+set showmatch
+set matchtime=10
