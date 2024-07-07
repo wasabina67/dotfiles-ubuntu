@@ -30,3 +30,11 @@ set hlsearch
 set pumheight=10
 set wildmenu wildmode=list:longest,full
 set history=1000
+
+" Indent, Tab
+
+" Stop beep
+set visualbell
+
+" Stop screen flash
+set t_vb=
