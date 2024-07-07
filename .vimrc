@@ -62,4 +62,8 @@ Plug 'airblade/vim-gitgutter'
 set updatetime=100
 highlight GitGutterAdd ctermfg=green ctermbg=brown
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+let AirlineTheme='dark'
+
 call plug#end()
