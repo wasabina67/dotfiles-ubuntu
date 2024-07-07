@@ -18,3 +18,9 @@ set nowrap
 
 " Set lastline
 set display=lastline
+
+" Search
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
