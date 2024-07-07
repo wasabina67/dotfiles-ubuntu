@@ -38,3 +38,9 @@ set visualbell
 
 " Stop screen flash
 set t_vb=
+
+" Beginning of line (Shift + h)
+nnoremap <S-h> ^
+
+" End of line (Shift + l)
+nnoremap <S-l> $
