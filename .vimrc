@@ -24,3 +24,9 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
+
+" Completion (^P)
+" (^N^P)
+set pumheight=10
+set wildmenu wildmode=list:longest,full
+set history=1000
