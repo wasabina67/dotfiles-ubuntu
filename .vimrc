@@ -57,4 +57,9 @@ set matchtime=10
 
 " vim-plug
 call plug#begin()
+
+Plug 'airblade/vim-gitgutter'
+set updatetime=100
+highlight GitGutterAdd ctermfg=green ctermbg=brown
+
 call plug#end()
