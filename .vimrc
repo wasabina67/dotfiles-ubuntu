@@ -54,3 +54,7 @@ nnoremap <S-l> $
 " Show match
 set showmatch
 set matchtime=10
+
+" vim-plug
+call plug#begin()
+call plug#end()
