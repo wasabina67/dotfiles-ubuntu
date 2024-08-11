@@ -10,3 +10,7 @@ alias gitdiffc='git diff --cached'
 
 alias cls='clear'
 alias rm='rm -i'
+
+alias p='pushd'
+alias o='popd'
+alias d='dirs -v'
