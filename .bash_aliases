@@ -14,3 +14,5 @@ alias rm='rm -i'
 alias p='pushd'
 alias o='popd'
 alias d='dirs -v'
+
+alias j='jobs -l'
