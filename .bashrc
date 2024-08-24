@@ -133,3 +133,5 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 export PIPENV_VENV_IN_PROJECT=true
 eval "$(pyenv init -)"
+
+. "$HOME/.cargo/env"
