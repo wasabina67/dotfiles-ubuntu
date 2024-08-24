@@ -136,3 +136,6 @@ eval "$(pyenv init -)"
 
 # Cargo
 . "$HOME/.cargo/env"
+
+# Go
+export PATH=$PATH:/usr/local/go/bin
