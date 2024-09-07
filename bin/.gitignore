@@ -1,0 +1,7 @@
+# Ignore all files by default
+*
+
+# Unignore
+!.gitignore
+!docker_cleanup
+!ticktack
