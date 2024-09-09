@@ -1,4 +1,5 @@
 alias gs='git status'
+alias gss='git status --short'
 alias gb='git branch'
 
 alias gitstatus='git status'
