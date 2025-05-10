@@ -22,3 +22,4 @@ done
 
 chmod +x ./bin/docker_cleanup
 chmod +x ./bin/ticktack
+chmod +x ./bin/tokyodate
