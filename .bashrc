@@ -135,7 +135,7 @@ export PIPENV_VENV_IN_PROJECT=true
 eval "$(pyenv init -)"
 
 # Cargo
-. "$HOME/.cargo/env"
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
 # Go
 export PATH=$PATH:/usr/local/go/bin
