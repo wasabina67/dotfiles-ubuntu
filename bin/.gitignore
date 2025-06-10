@@ -4,5 +4,6 @@
 # Unignore
 !.gitignore
 !docker_cleanup
+!stopwatch
 !ticktack
 !tokyodate
