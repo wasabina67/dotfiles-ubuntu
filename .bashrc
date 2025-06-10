@@ -137,11 +137,11 @@ eval "$(pyenv init -)"
 # Cargo
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
+# uv
+. "$HOME/.local/bin/env"
+
 # Go
 export PATH=$PATH:/usr/local/go/bin
 
 # tfenv
 export PATH=$PATH:$HOME/.tfenv/bin
-
-# uv
-. "$HOME/.local/bin/env"
