@@ -142,3 +142,6 @@ export PATH=$PATH:/usr/local/go/bin
 
 # tfenv
 export PATH=$PATH:$HOME/.tfenv/bin
+
+# uv
+. "$HOME/.local/bin/env"
