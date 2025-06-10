@@ -3,6 +3,7 @@
         "libpam",
         "pyenv",
         "tfenv",
+        "tokyodate",
         "VENV"
     ]
 }
