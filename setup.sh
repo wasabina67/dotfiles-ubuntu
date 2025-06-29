@@ -10,6 +10,7 @@ FILES=(
     ".profile"
     ".screenrc"
     ".sqliterc"
+    ".tmux.conf"
     ".vimrc"
 )
 DOTFILES_DIR="/home/wasabina67/dotfiles-ubuntu"
