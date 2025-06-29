@@ -1,9 +1,13 @@
 {
     "cSpell.words": [
+        "inputrc",
         "libpam",
         "pyenv",
+        "screenrc",
+        "sqliterc",
         "tfenv",
         "tokyodate",
-        "VENV"
+        "VENV",
+        "vimrc"
     ]
 }
