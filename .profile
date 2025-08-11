@@ -31,3 +31,5 @@ fi
 
 # uv
 [ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
+
+[ -f "/home/wasabina67/.ghcup/env" ] && . "/home/wasabina67/.ghcup/env" # ghcup-env

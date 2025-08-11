@@ -145,3 +145,5 @@ export PATH=$PATH:/usr/local/go/bin
 
 # tfenv
 export PATH=$PATH:$HOME/.tfenv/bin
+
+[ -f "/home/wasabina67/.ghcup/env" ] && . "/home/wasabina67/.ghcup/env" # ghcup-env
