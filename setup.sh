@@ -22,5 +22,6 @@ for f in "${FILES[@]}"; do
 done
 
 chmod +x ./bin/docker_cleanup
+chmod +x ./bin/stopwatch
 chmod +x ./bin/ticktack
 chmod +x ./bin/tokyodate
